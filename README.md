@@ -3,7 +3,16 @@
 ## Overview
 This project is part of the ALX Software Engineering curriculum.  
 It helps learners practice **TypeScript**, **interfaces**, **classes**, **DOM manipulation**, **namespaces**, and **advanced TypeScript features** through small tasks.
+## Requirements
 
+- Allowed editors: vi, vim, emacs, Visual Studio Code  
+- All your files should end with a new line  
+- All your files will be transpiled on Ubuntu 18.04  
+- Your TypeScript scripts will be checked with Jest (version 24.9.*)  
+- A README.md file, at the root of the folder of the project, is mandatory  
+- Your code should use the `.ts` extension whenever possible  
+- The TypeScript compiler should not show any warning or error when compiling your code
+ 
 ## Tasks Implemented
 
 ### Task 0: Creating an interface for a Student
