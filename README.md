@@ -1,6 +1,5 @@
 # TypeScript fundamentals in a real frontend environment. 
-
-# Task 0: Creating an Interface for a Student
+ Task 0: Creating an Interface for a Student
 
 In this task, I:
 - Create a TypeScript interface `Student` with `firstName`, `lastName`, `age`, and `location`.
