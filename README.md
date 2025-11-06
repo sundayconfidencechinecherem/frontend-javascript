@@ -1,7 +1,7 @@
-# TypeScript fundamentals in a real frontend environment. 
- Task 0: Creating an Interface for a Student
+# frontend-javascript
 
-In this task, I:
-- Create a TypeScript interface `Student` with `firstName`, `lastName`, `age`, and `location`.
-- Create two students and store them in an array `studentList`.
-- Render a table in the browser displaying the first name and location of each student.
+ Task 0: Student Interface, this project demonstrates:
+
+- Creating a Student interface in TypeScript
+- Adding two students to an array
+- Rendering a table with each student's first name and location using Vanilla JavaScript
