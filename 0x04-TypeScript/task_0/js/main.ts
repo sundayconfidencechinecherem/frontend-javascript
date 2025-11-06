@@ -17,7 +17,7 @@ const student2: Student = {
     location: 'Tokyo'
 }
 
-const studentList: Student[] = [student1, student2];
+const studentsList: Student[] = [student1, student2];
 
 const table = document.createElement('table')
 const thead = table.createTHead();
@@ -33,7 +33,7 @@ headerRow.appendChild(header2)
 
 const tbody = table.createTBody();
 
-studentList.forEach((student) => {
+studentsList.forEach((student) => {
     const row = tbody.insertRow();
     const firstNameCell = row.insertCell();
     const locationCell = row.insertCell();
