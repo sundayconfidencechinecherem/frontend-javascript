@@ -11,7 +11,7 @@ interface Teacher {
 const teacher1: Teacher = {
 firstName: 'grace',
 lastName: 'ebe',
-fullTimeEmployee: true,
+fullTimeEmployee: false,
 yearsOfExperience: 1,
 location: 'lagos',
 contract: false
