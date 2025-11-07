@@ -1,6 +1,6 @@
 interface Teacher {
-    firstName: string;
-    lastName: string;
+    readonly firstName: string;
+    readonly lastName: string;
     fullTimeEmployee: boolean;
     yearsOfExperience?: number;
     location: string;
@@ -8,13 +8,28 @@ interface Teacher {
 
 }
 
+interface Directors extends Teacher {
+numberOfReports: number;
+}
+
+
 const teacher3: Teacher = {
-firstName: 'grace',
+firstName: 'John',
 fullTimeEmployee: false,
-lastName: 'ebe',
-location: 'lagos',
+lastName: 'Doe',
+location: 'London',
 contract: false
 
 }
+
+const director1: Directors = {
+    firstName: 'John',
+    fullTimeEmployee: true,
+    lastName: 'Doe',
+    location: 'London',
+    numberOfReports: 17
+}
+
+console.log(director1)
 
 console.log(teacher3)
