@@ -8,14 +8,13 @@ interface Teacher {
 
 }
 
-const teacher1: Teacher = {
+const teacher3: Teacher = {
 firstName: 'grace',
-lastName: 'ebe',
 fullTimeEmployee: false,
-yearsOfExperience: 1,
+lastName: 'ebe',
 location: 'lagos',
 contract: false
 
 }
 
-console.log(teacher1)
+console.log(teacher3)
